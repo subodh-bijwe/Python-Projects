@@ -1,0 +1,10 @@
+version : "1.0"
+services:
+  subodh-app:
+    container_name: subodh-app
+    image: subodhbijwe/subodh-app
+    ports:
+      - "1234:1234"
+    build:
+      context: .
+      dockerfile: Dockerfile

@@ -1,0 +1,2 @@
+import asyncio
+from elasticsearch import AsyncElasticsearch
